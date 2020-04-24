@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\MultilayerBase.Core\MultilayerBase.Core.csproj" />
+    <ProjectReference Include="..\MultilayerBase.Services\MultilayerBase.Services.csproj" />
+    <ProjectReference Include="..\MultilayerBase.Data\MultilayerBase.Data.csproj" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <UserSecretsId>7bbd659d-0fdc-4894-9cc3-8ac23d44ac68</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
